@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Kart</title>
+       <link rel="stylesheet" href="style.css">  <link rel="stylesheet" href="bootsrap.min.css">               
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+      <div class="header">
+        
+          
+    <div class="container">
+         <div class="navbar">
+        <div class="logo">
+        <img src="naturekart.png" width="125px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li> <a href="product.html">Product</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="login.html">Login</a></li>
+               
+            </ul>
+        </nav>
+             <a href="cart.html"><img src="cart.jpg" width="30px" height="30px"></a>
+             <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+          </div>
+        </div>
+    
+
+        <!------------Contact US---------------->
+        <div class="contact-wrap">
+         <div class="contact-in">
+          <h1>Contact Us</h1>
+             <h2><i class="fa fa-phone" aria-hidden="true"></i>Phone</h2>
+             <p>885-181-7787</p>
+             <h2><i class="fa fa-envelope" aria-hidden="true"></i>Email</h2>
+             <p>naturekart8851@gmail.com</p>
+             <h2><i class="fa fa-map-marker" aria-hidden="true"></i>Address</h2>
+             <p>Karol Bagh Delhi , India</p>
+             <ul>
+					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				</ul>
+            </div>
+            <div class="contact-in">
+            <h1>Send a Message</h1>
+                 <form>
+            <input type="text" class="contact-in-input" placeholder="Enter Your Name">
+            <input type="email" class="contact-in-input" placeholder="Enter Your Email">
+            <input type="text" class="contact-in-input" placeholder="Enter Your Phone No.">
+            <textarea class="contact-in-textarea" placeholder="Enter Your Message..."></textarea>
+            <input type="submit" class="contact-in-btn" value="Send">
+            </form>
+            </div>
+            <div class="contact-in">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56020.23418846216!2d77.15830213141888!3d28.65179384685275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d029c5f402ed3%3A0x942174294c9dd946!2sKarol%20Bagh%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1609670491522!5m2!1sen!2sin" width="100%" height="auto" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        
+        </div>
+        <!------ brands ------>
+        <div class="brands">
+        <div class="small-conatiner">
+            <div class="row">
+                <div class="col-5">
+                <img src="airtel.jpg">
+                </div>
+                <div class="col-5">
+                <img src="amazonpay.jpg">
+                </div>
+                <div class="col-5">
+                <img src="gpay.jpg">
+                </div>
+                <div class="col-5">
+                <img src="paytm.jpg">
+                </div>
+                <div class="col-5">
+                <img src="phonepay.jpg">
+                </div>
+            </div>
+        </div>
+        </div>
+        <!----- footer ----->
+        <div class="footer">
+         <div class="container">
+            <div class="row">
+              <div class="footer-col-1">
+              <h3>Download Our App</h3>  
+                  <p>Download App for Android and ios mobile phone.</p>
+                  <div class="app-logo">
+                  <img src="play.jpg">
+                  <img src="apple.jpg">  
+                  </div>
+              </div>
+                <div class="footer-col-2">
+                <img src="nature.PNG">
+                    <p>Our Purpose Is To Provide Best Quality Of Pulses Without Polish.</p>
+              </div>
+              <div class="footer-col-3">
+                  <h3>Useful Links</h3>
+                  <ul>
+                  <li>Coupons</li>
+                  <li>Blog Post</li>
+                  <li>Return Policy</li>
+                  <li>Join Affiliate</li>     
+                  </ul>
+              </div>
+                <div class="footer-col-4">
+                  <h3>Follow Us</h3>
+                  <ul>
+                  <li>Facebook</li>
+                  <li>Twitter</li>
+                  <li>Instagram</li>
+                  <li>Youtube</li>     
+                  </ul>
+              </div>
+            </div>
+             <hr>
+                <p class="copyright">Copyright &#169 2020 All rights reserved | This templet is made by  <span>Nature Kart</span></p>
+         </div>
+        </div>  
+        <!-----js for toggle menu----->
+        <script>
+        var MenuItems=document.getElementById("MenuItems");
+            MenuItems.style.maxHeight = "0px";
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px")
+                    {
+                        MenuItems.style.maxHeight = "200px";
+                    }
+                else
+                    {
+                        MenuItems.style.maxHeight = "0px";
+                    }
+            }
+        </script>
+     </body>
+</html>
