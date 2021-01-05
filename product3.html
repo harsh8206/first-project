@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Products- Nature Kart</title>
+    <title>Nature Kart</title>
        <link rel="stylesheet" href="style.css">  <link rel="stylesheet" href="bootsrap.min.css">               
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-      
+      <div class="header">
         
           
     <div class="container">
          <div class="navbar">
         <div class="logo">
-        <img src="naturekart.png" width="125px">
+        <img src="Images/naturekart.png" width="125px">
         </div>
         <nav>
             <ul id="MenuItems">
@@ -24,31 +24,27 @@
                 <li> <a href="product.html">Product</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
-              <li><a href="login.html">Login</a></li>
+                <li><a href="login.html">Login</a></li>
+               
             </ul>
         </nav>
-             <a href="cart.html"><img src="cart.jpg" width="30px" height="30px"></a>
-             <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+             <a href="cart.html"><img src="Images/cart.jpg" width="30px" height="30px"></a>
+             <img src="Images/menu.png" class="menu-icon" onclick="menutoggle()">
         </div>
+          </div>
         </div>
     
         <div class="small-container">
         
             <div class="row row-2">
              <h2>All Products</h2>
-                <select>
-                <option>Default Sorting</option>
-                <option>Sort By Price</option>
-                <option>Sort By Popularity</option>
-                <option>Sort By Rating</option>
-                <option>Sort By Sale</option>
-                </select>
+                
             </div>
             
             <div class="row">
                 <div class="col-4">
-                    <img src="urad chilka.jpg">
-                    <h4>Urad Chilka</h4>
+                    <img src="Images/fanta.jpg">
+                    <h4>Fanta Lychee</h4>
                     <div class="rating">
                       <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
@@ -56,11 +52,11 @@
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>  
                     </div>
-                    <p>Rs. 120/kg</p>
+                    <p>Rs. 1700</p>
                 </div>
                 <div class="col-4">
-                    <img src="uradwashed.jpg">
-                    <h4>Urad Dhuli</h4>
+                    <img src="Images/tonino.jpg">
+                    <h4>Tonino Lamborghini</h4>
                     <div class="rating">
                       <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
@@ -68,11 +64,11 @@
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>  
                     </div>
-                    <p>Rs. 135/kg</p>
+                    <p>Rs. 499</p>
                 </div>
                 <div class="col-4">
-                    <img src="urad.jpg">
-                    <h4>Urad Whole</h4>
+                    <img src="Images/coca.jpg">
+                    <h4>Coca Cola Zero Sugar</h4>
                     <div class="rating">
                       <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
@@ -80,11 +76,11 @@
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>  
                     </div>
-                    <p>Rs. 105/kg</p>
+                    <p>Rs. 65</p>
                 </div>
                 <div class="col-4">
-                    <img src="aata.png">
-                    <h4>Aahirvaad Aata</h4>
+                    <img src="Images/monster.jpg">
+                    <h4>Monster Energy Ultra</h4>
                     <div class="rating">
                       <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
@@ -92,55 +88,56 @@
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>  
                     </div>
-                    <p>Rs. 340</p>
-                </div>
-                 <div class="col-4">
-                    <img src="surf.jpg">
-                    <h4>Surf Excel</h4>
-                    <div class="rating">
-                      <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>  
-                    </div>
-                    <p>Rs. 175/kg</p>
-                </div> 
-                <div class="col-4">
-                    <img src="dettol.jpeg">
-                    <h4>Dettol Soap</h4>
-                    <div class="rating">
-                      <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>  
-                    </div>
-                    <p>Rs. 145</p>
+                    <p>Rs. 560</p>
                 </div>
                 <div class="col-4">
-                    <img src="ghee.jpg">
-                    <h4>Mother Dairy Ghee</h4>
+                    <img src="Images/oil.jpg">
+                    <h4>Bajaj Almonds Oil</h4>
                     <div class="rating">
                       <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>  
+                        <i class="fa fa-star"></i>
                     </div>
-                    <p>Rs. 435/kg</p>
+                    <p>Rs. 390</p>
                 </div>
                 <div class="col-4">
-                    <img src="colgate.jpg">
-                    <h4>Colgate</h4>
+                    <img src="Images/oral.jpg">
+                    <h4>Oral B Toothbrush </h4>
                     <div class="rating">
                       <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>  
+                        <i class="fa fa-star"></i>  
                     </div>
-                    <p>Rs. 50</p>
+                    <p>Rs. 1399</p>
+                </div>
+                <div class="col-4">
+                    <img src="Images/versace.jpg">
+                    <h4>Versace Dylan Blue</h4>
+                    <div class="rating">
+                      <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>  
+                    </div>
+                    <p>Rs. 4545</p>
+                </div>
+                  
+                <div class="col-4">
+                    <img src="Images/herms.jpg">
+                    <h4>Luxury Herms d'Orange Soap</h4>
+                    <div class="rating">
+                      <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                    </div>
+                    <p>Rs. 13388</p>
                 </div>
                 
             </div>
@@ -149,9 +146,31 @@
              <a href="product2.html"><span>2</span></a>
              <a href="product.html"><span>3</span></a>
              <a href="product.html"><span>4</span></a>
-             <span>&#8594;</span>
+             
             </div>
             
+        </div>
+         <!------ brands ------>
+        <div class="brands">
+        <div class="small-conatiner">
+            <div class="row">
+                <div class="col-5">
+                <img src="Images/airtel.jpg">
+                </div>
+                <div class="col-5">
+                <img src="Images/amazonpay.jpg">
+                </div>
+                <div class="col-5">
+                <img src="Images/gpay.jpg">
+                </div>
+                <div class="col-5">
+                <img src="Images/paytm.jpg">
+                </div>
+                <div class="col-5">
+                <img src="Images/phonepay.jpg">
+                </div>
+            </div>
+        </div>
         </div>
         <!----- footer ----->
         <div class="footer">
@@ -161,12 +180,12 @@
               <h3>Download Our App</h3>  
                   <p>Download App for Android and ios mobile phone.</p>
                   <div class="app-logo">
-                  <img src="play.jpg">
-                  <img src="apple.jpg">  
+                  <img src="Images/play.jpg">
+                  <img src="Images/apple.jpg">  
                   </div>
               </div>
                 <div class="footer-col-2">
-                <img src="nature.PNG">
+                <img src="Images/nature.PNG">
                     <p>Our Purpose Is To Provide Best Quality Of Pulses Without Polish.</p>
               </div>
               <div class="footer-col-3">

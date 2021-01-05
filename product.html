@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Products- Nature Kart</title>
+    <title>Nature Kart</title>
        <link rel="stylesheet" href="style.css">  <link rel="stylesheet" href="bootsrap.min.css">               
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-      
+      <div class="header">
         
           
     <div class="container">
          <div class="navbar">
         <div class="logo">
-        <img src="naturekart.png" width="125px">
+        <img src="Images/naturekart.png" width="125px">
         </div>
         <nav>
             <ul id="MenuItems">
@@ -25,29 +25,36 @@
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
                 <li><a href="login.html">Login</a></li>
+               
             </ul>
         </nav>
-             <a href="cart.html"><img src="cart.jpg" width="30px" height="30px"></a>
-             <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+             <a href="cart.html"><img src="Images/cart.jpg" width="30px" height="30px"></a>
+             <img src="Images/menu.png" class="menu-icon" onclick="menutoggle()">
         </div>
+          </div>
         </div>
-    
         <div class="small-container">
         
             <div class="row row-2">
              <h2>All Products</h2>
-                <select>
-                <option>Default Sorting</option>
-                <option>Sort By Price</option>
-                <option>Sort By Popularity</option>
-                <option>Sort By Rating</option>
-                <option>Sort By Sale</option>
-                </select>
+                
             </div>
             
             <div class="row">
+               <div class="col-4">
+                   <a href="productdetails.html"><img src="Images/aata.png"></a>
+                    <h4>Aahirvaad Aata</h4>
+                    <div class="rating">
+                      <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>  
+                    </div>
+                    <p>Rs. 340</p>
+                </div>
                 <div class="col-4">
-                <img src="arhar dal.jpg">
+                    <a href="productdetails1.html"><img src="Images/arhar dal.jpg"></a>
                     <h4>Arhar Dal</h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
@@ -59,7 +66,31 @@
                     <p>Rs. 149/kg</p>
                 </div>
                 <div class="col-4">
-                <img src="black masoor.jpg">
+                    <a href="productdetails2.html"><img src="Images/surf.jpg"></a>
+                    <h4>Surf Excel</h4>
+                    <div class="rating">
+                      <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>  
+                    </div>
+                    <p>Rs. 175/kg</p>
+                </div>
+                <div class="col-4">
+                    <a href="productdetails3.html"><img src="Images/ghee.jpg"></a>
+                    <h4>Mother Dairy Ghee</h4>
+                    <div class="rating">
+                      <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>  
+                    </div>
+                    <p>Rs. 435/kg</p>
+                </div>
+                <div class="col-4">
+                <img src="Images/black masoor.jpg">
                     <h4>Black Masoor</h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
@@ -71,7 +102,7 @@
                     <p>Rs. 110/kg</p>
                 </div>
                 <div class="col-4">
-                <img src="chana.jpg">
+                <img src="Images/chana.jpg">
                     <h4>Chana Dal</h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
@@ -83,7 +114,7 @@
                     <p>Rs. 105/kg</p>
                 </div>
                 <div class="col-4">
-                    <img src="kabuli chole.jpg">
+                    <img src="Images/kabuli chole.jpg">
                     <h4>Kabuli Chole</h4>
                     <div class="rating">
                       <i class="fa fa-star"></i>
@@ -95,7 +126,7 @@
                     <p>Rs. 100/kg</p>
                 </div>
                 <div class="col-4">
-                <img src="black_chana.jpg">
+                <img src="Images/black_chana.jpg">
                     <h4>Kale Chana</h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
@@ -107,42 +138,7 @@
                     <p>Rs. 80/kg</p>
                 </div>
                 
-                <div class="col-4">
-                    <img src="kashmiri rajma.jpg">
-                    <h4>Kashmiri Rajma</h4>
-                    <div class="rating">
-                      <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>  
-                    </div>
-                    <p>Rs. 125/kg</p>
-                </div>
-                <div class="col-4">
-                    <img src="lobia.jpg">
-                    <h4>Lobiya</h4>
-                    <div class="rating">
-                      <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>  
-                    </div>
-                    <p>Rs. 140/kg</p>
-                </div>
-                <div class="col-4">
-                    <img src="masoordal.jpg">
-                    <h4>Masoor Dal</h4>
-                    <div class="rating">
-                      <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>  
-                    </div>
-                    <p>Rs. 130/kg</p>
-                </div>
+                
                  
             </div>
          <div class="page-btn">
@@ -150,9 +146,31 @@
              <a href="product2.html"><span>2</span></a>
              <a href="product3.html"><span>3</span></a>
              <a href="product.html"><span>4</span></a>
-             <span>&#8594;</span>
+             
             </div>
             
+        </div>
+         <!------ brands ------>
+        <div class="brands">
+        <div class="small-conatiner">
+            <div class="row">
+                <div class="col-5">
+                <img src="Images/airtel.jpg">
+                </div>
+                <div class="col-5">
+                <img src="Images/amazonpay.jpg">
+                </div>
+                <div class="col-5">
+                <img src="Images/gpay.jpg">
+                </div>
+                <div class="col-5">
+                <img src="Images/paytm.jpg">
+                </div>
+                <div class="col-5">
+                <img src="Images/phonepay.jpg">
+                </div>
+            </div>
+        </div>
         </div>
         <!----- footer ----->
         <div class="footer">
@@ -162,12 +180,12 @@
               <h3>Download Our App</h3>  
                   <p>Download App for Android and ios mobile phone.</p>
                   <div class="app-logo">
-                  <img src="play.jpg">
-                  <img src="apple.jpg">  
+                  <img src="Images/play.jpg">
+                  <img src="Images/apple.jpg">  
                   </div>
               </div>
                 <div class="footer-col-2">
-                <img src="nature.PNG">
+                <img src="Images/nature.PNG">
                     <p>Our Purpose Is To Provide Best Quality Of Pulses Without Polish.</p>
               </div>
               <div class="footer-col-3">

@@ -3,53 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Products- Nature Kart</title>
+    <title>Nature Kart</title>
        <link rel="stylesheet" href="style.css">  <link rel="stylesheet" href="bootsrap.min.css">               
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnecImages/t" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
+  </head>
     <body>
-      
+      <div class="header">
         
-          
+     
     <div class="container">
          <div class="navbar">
         <div class="logo">
-        <img src="naturekart.png" width="125px">
+        <img src="Images/naturekart.png" width="125px">
         </div>
         <nav>
             <ul id="MenuItems">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="product.html">Product</a></li>
+                <li> <a href="product.html">Product</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
                 <li><a href="login.html">Login</a></li>
-                </ul>
+               
+            </ul>
         </nav>
-             <a href="cart.html"><img src="cart.jpg" width="30px" height="30px"></a>
-             <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+             <a href="cart.html"><img src="Images/cart.jpg" width="30px" height="30px"></a>
+             <img src="Images/menu.png" class="menu-icon" onclick="menutoggle()">
         </div>
+          </div>
         </div>
        <!-------- single product detais -------->
         
         <div class="small-container single-product">
         <div class="row">
             <div class="col-2">
-                <img src="aata.png" width="100%" id="ProductImg">
+                <img src="Images/aata.png" width="100%" id="ProductImg">
            
                 <div class="small-img-row">
                    <div class="small-img-col"> 
-                     <img src="aata.png" width="100%" class="small-img">
+                     <img src="Images/aata.png" width="100%" class="small-img">
                     </div>
                     <div class="small-img-col"> 
-                     <img src="aata2.jpg" width="100%" class="small-img">
+                     <img src="Images/aata2.jpg" width="100%" class="small-img">
                     </div>
                     <div class="small-img-col"> 
-                     <img src="aata3.jpg" width="100%" class="small-img">
+                     <img src="Images/aata3.jpg" width="100%" class="small-img">
                     </div>
                     <div class="small-img-col"> 
-                     <img src="aata4.jpg" width="100%" class="small-img">
+                     <img src="Images/aata4.jpg" width="100%" class="small-img">
                     </div>
                 </div>
             </div>
@@ -58,20 +60,26 @@
                 <h1>Aashirvaad Aata</h1>
                 <h4>Rs.340</h4>
                 <input type="number" value="1">
-                <a href="" class="btn">Add to Cart</a>
+                <a href="cart.html" class="btn">Add to Cart</a>
             <br>
             <h3>Product Details <i class="fa fa-indent"></i></h3>
             <p>Aashirvaad Whole Wheat Atta provides the goodness of health in every bite. This product incorporates many benefits of wheat and lets your body maintain a nutrient balance. It is made of nutritious wheat grains. Also, it has a sweet taste that gives you fuller and softer rotis, every single time. </p>
             </div>
             </div> 
         </div>
-    
+        <!-----title--->
+        <div class="small-containeer">
+        <div class="row col-2">
+            <h2>Related Products</h2>
+            </div>
+        </div>
+    <!-----product--->
         <div class="small-container">
         
             
              <div class="row">
                 <div class="col-4">
-                <img src="arhar dal.jpg">
+                <img src="Images/arhar dal.jpg">
                     <h4>Arhar Dal</h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
@@ -83,7 +91,7 @@
                     <p>Rs. 149/kg</p>
                 </div>
                 <div class="col-4">
-                <img src="black masoor.jpg">
+                <img src="Images/black masoor.jpg">
                     <h4>Black Masoor</h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
@@ -95,7 +103,7 @@
                     <p>Rs. 110/kg</p>
                 </div>
                 <div class="col-4">
-                <img src="chana.jpg">
+                <img src="Images/chana.jpg">
                     <h4>Chana Dal</h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
@@ -107,7 +115,7 @@
                     <p>Rs. 105/kg</p>
                 </div>
                 <div class="col-4">
-                    <img src="kabuli chole.jpg">
+                    <img src="Images/kabuli chole.jpg">
                     <h4>Kabuli Chole</h4>
                     <div class="rating">
                       <i class="fa fa-star"></i>
@@ -120,6 +128,28 @@
                 </div>
             </div>            
         </div>
+         <!------ brands ------>
+        <div class="brands">
+        <div class="small-conatiner">
+            <div class="row">
+                <div class="col-5">
+                <img src="Images/airtel.jpg">
+                </div>
+                <div class="col-5">
+                <img src="Images/amazonpay.jpg">
+                </div>
+                <div class="col-5">
+                <img src="Images/gpay.jpg">
+                </div>
+                <div class="col-5">
+                <img src="Images/paytm.jpg">
+                </div>
+                <div class="col-5">
+                <img src="Images/phonepay.jpg">
+                </div>
+            </div>
+        </div>
+        </div>
         <!----- footer ----->
         <div class="footer">
          <div class="container">
@@ -128,12 +158,12 @@
               <h3>Download Our App</h3>  
                   <p>Download App for Android and ios mobile phone.</p>
                   <div class="app-logo">
-                  <img src="play.jpg">
-                  <img src="apple.jpg">  
+                  <img src="Images/play.jpg">
+                  <img src="Images/apple.jpg">  
                   </div>
               </div>
                 <div class="footer-col-2">
-                <img src="nature.PNG">
+                <img src="Images/nature.PNG">
                     <p>Our Purpose Is To Provide Best Quality Of Pulses Without Polish.</p>
               </div>
               <div class="footer-col-3">
