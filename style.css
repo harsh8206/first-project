@@ -9,11 +9,9 @@ body{
     font-family: 'IBM Plex Sans', sans-serif;
 }
 .navbar{
-    background-image: url(Images/vege2.jpg);
-    background-size: cover;
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 60px;
    
 }
 nav{
@@ -31,28 +29,36 @@ nav ul li{
     padding: auto;
 }
 .navbar a{
-    color: #fff;
+    text-align: justify;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
 }
+
 a{
     text-decoration: none;
-    color: #555;
-    
+    color: black;
     text-transform: uppercase;
 }
 a:hover, a:active{
-    
+    text-decoration: underline;
 }
-
+.container p{
+    font-size: 18px;
+}
 p{
-    color: #846;
+    font-size:12px;
+    color: orangered;
 }
 .container .row{
     height: 100%;
     width: 100%;
 }
 .container .navbar{
-    background-image: url(Images/vege2.jpg);
+    background-image: url(Images/v3.jpg);
     background-size: cover;
+    padding: 10%;
+    border-radius: 5%
 }
 .container{
     max-width: 1300px;
@@ -91,12 +97,7 @@ p{
 .btn:hover{
     background: #563434;
 }
-.header{
-    background: radial-gradient(#fff,#ffd6d6);
-}
-.header .row{
-    margin-top: 70px;
-}
+
 .categories{
     margin: 70px 0;
 }
@@ -160,9 +161,12 @@ p{
 .col-4:hover{
     transform: translateY(-10px);
 }
+.carousel-inner{
+    height: 600px;
+}
 /*--- Offer ---*/
 .offer{
- background: linear-gradient(to bottom, #EA738DFF, #CBCE91FF);
+ background: #d3d3d3;
  margin-top: 80px;
  padding: 10px 0;
 }
@@ -171,12 +175,26 @@ p{
   color: #000;
     border: 5px;
 }
+.offer p{
+    font-size: 28px;
+}
 
 .col-2 .offer-img{
     padding: 80px;
+    border-radius: 20%;
 }
-.small{
-    color: #558;
+.offer .btn{
+    border-radius: 50px;
+}
+.offer .btn:hover{
+    color:white;
+    background: #de970b;
+}
+.offer h2{
+    font-size: 35px;
+}
+.offer small{
+    font-size: 25px;
 }
 
 /*----------- testimonial ------------*/
@@ -221,10 +239,10 @@ p{
 .col-5 img{
     width: 100%;
     cursor: pointer;
-    filter: grayscale(100%);
+    
 }
 .col-5 img:hover{
-    filter: grayscale(0);
+    filter: grayscale(100%);
 }
 /*-----footer-----*/
 .footer{
@@ -324,29 +342,36 @@ ul{
 }
 .contact-in:nth-child(1){
     flex:30%;
-    background: url(Images/1.jpg);
+    background: url(Images/office2.jpg);
     color: #fff;
 }
 .contact-in:nth-child(2){
     
     flex:45%;
-    background: #EBECF0;
+   background: url(Images/office.jpg);
+    background-size: cover;
 }
 .contact-in:nth-child(3){
     flex:25%;
     padding: 0;
 }
 .contact-in h1{
- font-size: 24px;
+    font-style: bold;
+ font-size: 35px;
     color: #fff;
     text-transform: uppercase;
     font-weight: 500;
     margin-bottom: 20px;
 }
 .contact-in h2{
- font-size: 20px;
+
+   font-size: 20px;
       font-weight: 400;
     margin-bottom: 15px;
+}
+.contact-in h3{
+    color: #fff;
+    font-size: 35px
 }
 .contact-in h2 i{
  font-size: 16px;
@@ -391,7 +416,6 @@ ul{
 .contact-in form{
    width: 100%;
     height: auto;
-
 }
 .contact-in-input{
    width: 100%;
@@ -429,16 +453,19 @@ ul{
     
 }
 .contact-in-btn{
-   float: right;
-  border: 0 solid #fff;
-  background: #ffadad;
-  color: #000000;
-  padding: 12px 50px;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: 0.5s;
-    font-weight: 300;
-    font-size: 12px;
+    background: #000;
+    color: #fff;
+    padding: 8px 10px;
+    margin: 10px 0px;
+    border-radius: 20px;
+    transition: background 0.5s;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+}
+.contact-in-btn:hover{
+    background: #3030;
+    color: #fff;
 }
 .contact-in iframe{
     width:100%;
@@ -476,6 +503,27 @@ select:focus{
     color: #fff;
 }
 /*-------- about -------*/
+.aboutus{
+    background: #f8f8ff;
+}
+.aboutus h2{
+    text-align: center;
+    font-size: 50px;
+    
+    font-family:'Open Sans', sans-serif;
+}
+.aboutus p{
+    text-align: justify-all;
+    font-weight: bold;
+    font-size: 25px;
+    color: #000; 
+    font-family: monospace;
+}
+.aboutus h3{
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+}
 
 .testimonial .col-3{
     text-align: center;
